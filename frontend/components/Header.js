@@ -18,6 +18,8 @@ import {
   DropdownItem
 } from 'reactstrap';
 
+import '.././node_modules/nprogress/nprogress.css';
+
 Router.onRouteChangeStart = url => Nprogress.start();
 Router.onRouteChangeComplete = url => Nprogress.done();
 Router.onRouteChangeError = url => Nprogress.done();
