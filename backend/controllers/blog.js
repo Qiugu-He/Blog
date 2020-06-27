@@ -47,7 +47,7 @@ exports.create = (req, res) =>{
         let blog = new Blog();
         blog.title = title;
         blog.body = body;
-        blog.excerpt = smartTrim(body, 320, ' ', '...');
+        blog.excerpt = smartTrim(body, 320, ' ', ' ...');
         blog.slug = slugify(title).toLowerCase();
         blog.mtitle = `${title} | ${process.env.APP_NAME}`;
         blog.mdesc = stripHtml(body.substring(0, 160));
