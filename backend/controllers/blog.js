@@ -163,6 +163,7 @@ exports.listAllBlogsCategoriesTags = (req, res) => {
         });
 };
 
+
 exports.read = (req, res) => {
     const slug = req.params.slug.toLowerCase();
     Blog.findOne({ slug })
