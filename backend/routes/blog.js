@@ -1,4 +1,3 @@
-
 const express = require('express');
 const router = express.Router();
 const { create, list, listAllBlogsCategoriesTags, read, remove, update, photo } = require('../controllers/blog');
@@ -11,7 +10,6 @@ router.post('/blogs-categories-tags', listAllBlogsCategoriesTags);
 router.get('/blog/:slug', read);
 router.delete('/blog/:slug', requireSignin, adminMiddleware, remove);
 router.put('/blog/:slug', requireSignin, adminMiddleware, update);
-
-router.put('/blog/photo:slug', photo);
+router.get('/blog/photo/:slug', photo);
 
 module.exports = router;
