@@ -49,18 +49,27 @@ const UserProfile = ({ user, blogs, query }) => {
                         <div className="col-md-12">
                             <div className="card">
                                 <div className="card-body">
-                                    <h5>{user.name}</h5>
-                                    <Link href={`${user.profile}`}>
-                                        <a>View Profile</a> 
-                                    </Link>
-                                    <p className="text-muted">Joined {moment(user.createAt).fromNow()}</p>
+                                    <div className="row">
+                                        <div className="col-md-8">
+                                            <h5>{user.name}</h5>
+                                            <p className="text-muted">Joined {moment(user.createdAt).fromNow()}</p>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <img
+                                                src={`${API}/user/photo/${user.username}`}
+                                                className="img img-fluid img-thumbnail mb-3"
+                                                style={{ maxHeight: '100px', maxWidth: '100%' }}
+                                                alt="user profile"
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
 
-                <br/>
+                <br />
 
                 <div className="container pb-5">
                     <div className="row">
@@ -70,7 +79,8 @@ const UserProfile = ({ user, blogs, query }) => {
                                     <h5 className="card-title bg-primary pt-4 pb-4 pl-4 pr-4 text-white">
                                         Recent blogs by {user.name}
                                     </h5>
-                                    <p>{showUserBlogs()}</p>
+
+                                    {showUserBlogs()}
                                 </div>
                             </div>
                         </div>
