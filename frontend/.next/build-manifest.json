@@ -20,13 +20,19 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/signin": [
+    "/blogs": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/user/update": [
+    "/blogs/[slug]": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/user/crud/blog": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
