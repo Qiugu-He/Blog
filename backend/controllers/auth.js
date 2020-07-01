@@ -3,12 +3,11 @@ const Blog = require('../models/blog');
 const shortId = require('shortid');
 const jwt = require('jsonwebtoken');
 const expressJwt = require('express-jwt');
-const {errorHandler } = require('../helpers/dbErrorHandler');
+const { errorHandler } = require('../helpers/dbErrorHandler');
 const _ = require('lodash');
-
+// sendgrid
 const sgMail = require('@sendgrid/mail'); // SENDGRID_API_KEY
-sgMail.setApiKey('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');
-
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 exports.signup = (req, res) => {
     // console.log(req.body);
@@ -56,9 +55,9 @@ exports.signin = (req, res) => {
             });
         }
         // generate a token and send to client
-        const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, { expiresIn: '1d' });
+        const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET, { expiresIn: '10' });
 
-        res.cookie('token', token, { expiresIn: '1d' });
+        res.cookie('token', token, { expiresIn: '10' });
         const { _id, username, name, email, role } = user;
         return res.json({
             token,
@@ -75,39 +74,38 @@ exports.signout = (req, res) => {
 };
 
 exports.requireSignin = expressJwt({
-    secret: process.env.JWT_SECRET
+    secret: process.env.JWT_SECRET // req.user
 });
 
 exports.authMiddleware = (req, res, next) => {
     const authUserId = req.user._id;
-    User.findOne({_id: authUserId}).exec((err, user) =>{
-        if(err || !user){
+    User.findById({ _id: authUserId }).exec((err, user) => {
+        if (err || !user) {
             return res.status(400).json({
-                error:'User not found'
-            })
+                error: 'User not found'
+            });
         }
-
-        req.profile=user;
+        req.profile = user;
         next();
     });
 };
 
 exports.adminMiddleware = (req, res, next) => {
     const adminUserId = req.user._id;
-    User.findById({_id: adminUserId}).exec((err, user) =>{
-        if(err || !user){
+    User.findById({ _id: adminUserId }).exec((err, user) => {
+        if (err || !user) {
             return res.status(400).json({
-                error:'User not found'
-            })
+                error: 'User not found'
+            });
         }
 
-        if(user.role !== 1){
+        if (user.role !== 1) {
             return res.status(400).json({
-                error:'Admin resources, access denied'
-            })
+                error: 'Admin resource. Access denied'
+            });
         }
 
-        req.profile=user;
+        req.profile = user;
         next();
     });
 };
@@ -152,7 +150,7 @@ exports.forgotPassword = (req, res) => {
             <p>${process.env.CLIENT_URL}/auth/password/reset/${token}</p>
             <hr />
             <p>This email may contain sensetive information</p>
-            <p>https://blog.com</p>
+            <p>https://seoblog.com</p>
         `
         };
         // populating the db > user > resetPasswordLink
