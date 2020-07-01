@@ -20,13 +20,7 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/admin/crud/category-tag": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
-    "/blogs": [
+    "/blogs/[slug]": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

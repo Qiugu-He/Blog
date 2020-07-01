@@ -13,3 +13,5 @@ export const DOMAIN = publicRuntimeConfig.PRODUCTION
     :'http://localhost:3000';
 
 export const FB_APP_ID = publicRuntimeConfig.FB_APP_ID;
+
+export const DISQUS_SHORTNAME = publicRuntimeConfig.DISQUS_SHORTNAME;
