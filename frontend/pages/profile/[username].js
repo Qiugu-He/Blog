@@ -4,9 +4,9 @@ import Layout from '../../components/Layout';
 import { userPublicProfile } from '../../actions/user';
 import { API, DOMAIN, APP_NAME, FB_APP_ID } from '../../config';
 import moment from 'moment';
+import ContactForm from '../../components/form/ContactForm';
 
 const UserProfile = ({ user, blogs, query }) => {
-
     const head = () => (
         <Head>
             <title>
@@ -20,13 +20,12 @@ const UserProfile = ({ user, blogs, query }) => {
             <meta property="og:url" content={`${DOMAIN}/profile/${query.username}`} />
             <meta property="og:site_name" content={`${APP_NAME}`} />
 
-            <meta property="og:image" content={`${DOMAIN}/static/images/001.JPG`} />
-            <meta property="og:image:secure_url" content={`${DOMAIN}/static/images/002.JPG`} />
-            <meta property="og:image:type" content="image/JPG" />
+            <meta property="og:image" content={`${DOMAIN}/static/images/seoblog.jpg`} />
+            <meta property="og:image:secure_url" content={`${DOMAIN}/static/images/seoblog.jpg`} />
+            <meta property="og:image:type" content="image/jpg" />
             <meta property="fb:app_id" content={`${FB_APP_ID}`} />
         </Head>
     );
-
 
     const showUserBlogs = () => {
         return blogs.map((blog, i) => {
@@ -92,7 +91,7 @@ const UserProfile = ({ user, blogs, query }) => {
                                         Message {user.name}
                                     </h5>
                                     <br />
-                                    <p>contact form</p>
+                                    <ContactForm authorEmail={user.email} />
                                 </div>
                             </div>
                         </div>
@@ -109,7 +108,7 @@ UserProfile.getInitialProps = ({ query }) => {
         if (data.error) {
             console.log(data.error);
         } else {
-            //console.log(data);
+            // console.log(data);
             return { user: data.user, blogs: data.blogs, query };
         }
     });
