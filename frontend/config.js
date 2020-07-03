@@ -1,6 +1,5 @@
 import getConfig from 'next/config';
-
-const {publicRuntimeConfig} = getConfig()
+const { publicRuntimeConfig } = getConfig()
 
 export const API = publicRuntimeConfig.PRODUCTION 
     ?'https://blog.com'
@@ -13,7 +12,5 @@ export const DOMAIN = publicRuntimeConfig.PRODUCTION
     :'http://localhost:3000';
 
 export const FB_APP_ID = publicRuntimeConfig.FB_APP_ID;
-
 export const DISQUS_SHORTNAME = publicRuntimeConfig.DISQUS_SHORTNAME;
-
 export const GOOGLE_CLIENT_ID=publicRuntimeConfig.GOOGLE_CLIENT_ID;
