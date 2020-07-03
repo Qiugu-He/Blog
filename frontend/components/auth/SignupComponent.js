@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { signup, isAuth } from '../../actions/auth';
+import { signup, isAuth, preSignup } from '../../actions/auth';
 import Router from 'next/router';
+import Link from 'next/link';
 
 const SignupComponent = () => {
     const [values, setValues] = useState({
@@ -38,6 +39,7 @@ const SignupComponent = () => {
                 });
             }
         });
+
     };
 
     useEffect(()=>{
@@ -99,6 +101,10 @@ const SignupComponent = () => {
             {showLoading()}
             {showMessage()}
             {showForm && signupForm()}
+            <br/>
+            <Link href = "/auth/password/forgot">
+                <a className="btn btn-outline-danger btn-sm">Forgot password</a>
+            </Link>
         </React.Fragment>
     );
 };

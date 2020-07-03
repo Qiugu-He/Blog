@@ -20,13 +20,13 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/auth/password/forgot": [
+    "/signin": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/user": [
+    "/signup": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
