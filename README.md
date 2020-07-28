@@ -7,11 +7,12 @@ Made by Qiugu
 
 
 ## Features:
-- User Interface
-- Google Login, Login/Logout with authentication and authriozation
+* User Interface
+* Google Login, Login/Logout with authentication and authriozation
 * Write & Post a blog
 * Separate admin and User dashboard
 * Related Blogs
+
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog.png" alt="alt text" width="50%" height="50%">
 <br/>
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog3.png" alt="alt text" width="50%" height="50%">
@@ -23,3 +24,21 @@ Made by Qiugu
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog5.png" alt="alt text" width="50%" height="50%">
 <br/>
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog6.png" alt="alt text" width="50%" height="50%">
+
+## Technologies Used
+### Languages:
+* JavaScript
+* HTML
+* CSS
+
+Frameworks/Libaries:
+* ReactJs
+* NodeJs
+* Bootstrap
+* NextJs
+
+Database / Tools:
+* Google API
+* Mongodb
+* Postman
+* Digital Ocean
