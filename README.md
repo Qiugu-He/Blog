@@ -9,18 +9,17 @@ Made by Qiugu
 ## Features:
 * User Interface
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog.png" alt="alt text" width="50%" height="50%">
-* Login/Logout with authentication and authriozation
-* Google Login
+<br/>
+* Google Login, Login/Logout with authentication and authriozation
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog3.png" alt="alt text" width="50%" height="50%">
+<br/>
 * Write & Post a blog
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog2.png" alt="alt text" width="50%" height="50%">
+<br/>
 * Separate admin and User dashboard
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog4.png" alt="alt text" width="50%" height="50%">
-* Comment System
-* Related Blogs
-
-
-
-
+<img src="https://github.com/Qiugu-He/Blog/blob/master/blog7.png" alt="alt text" width="50%" height="50%">
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog5.png" alt="alt text" width="50%" height="50%">
+<br/>
+* Related Blogs
 <img src="https://github.com/Qiugu-He/Blog/blob/master/blog6.png" alt="alt text" width="50%" height="50%">
