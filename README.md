@@ -14,3 +14,8 @@ Made by Qiugu
 * Separate admin and User dashboard
 * Comment System
 * Related Blogs
+
+<img src=“https://github.com/Qiugu-He/Blog/blob/master/blog1.png” alt="alt text" width="50%" height="50%">
+<img src=“https://github.com/Qiugu-He/Blog/blob/master/blog2.png” alt="alt text" width="50%" height="50%">
+<img src=“https://github.com/Qiugu-He/Blog/blob/master/blog3.png” alt="alt text" width="50%" height="50%">
+<img src=“https://github.com/Qiugu-He/Blog/blob/master/blog4.png” alt="alt text" width="50%" height="50%">
