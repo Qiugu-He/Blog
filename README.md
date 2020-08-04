@@ -12,7 +12,7 @@ Made by Qiugu
 <br/>
 
 - Mobile:
-<img src="https://github.com/Qiugu-He/Blog/blob/master/ScreenShot2.png" alt="alt text" width="100%" height="100%">
+<img src="https://github.com/Qiugu-He/Blog/blob/master/ScreenShoot2.png" alt="alt text" width="100%" height="100%">
 <br/>
 
 - Demo please visit (Cloud service provider - Digital Ocean): http://167.99.183.216/
