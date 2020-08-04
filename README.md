@@ -4,6 +4,8 @@
 ## SEO Multi-User Blogging Platform
 This blog is built using MERN stack - React, Node Express, NextJs, and MongoDB
 
+Address (Cloud service by Digital Ocean): http://167.99.183.216/
+
 Made by Qiugu
 
 ## Screenshot
@@ -14,8 +16,6 @@ Made by Qiugu
 - Mobile:
 <img src="https://github.com/Qiugu-He/Blog/blob/master/ScreenShoot2.png" alt="alt text" width="30%" height="30%">
 <br/>
-
-- Demo (Cloud service provided by Digital Ocean): http://167.99.183.216/
 
 ## Feature Description:
 - [x]  Signin/Singup <br>
