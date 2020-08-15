@@ -101,7 +101,7 @@ npm run build
 npm run dev
 ```
 
-***Note:** In order to see the project, API and frontend should both running (i.e. Open two seperate ternimal), otherwith API request will failed.
+***Note:** Please make sure API is running in ordrer for front-side work properly.
 
 For detail, please visite: http://167.99.183.216/
 
