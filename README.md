@@ -15,8 +15,8 @@ Made by Qiugu
 <br/>
 
 - Mobile:
-<img src="https://github.com/Qiugu-He/Blog/blob/master/ScreenShot2.png" alt="alt text" width="30%" height="30%">
-<img src="https://github.com/Qiugu-He/Blog/blob/master/ScreenShot3.png" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshot2.png" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshot2.png" alt="alt text" width="30%" height="30%">
 <br/>
 
 ## Feature Description:
