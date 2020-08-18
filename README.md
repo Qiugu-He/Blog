@@ -43,6 +43,7 @@ Made by Qiugu
 - NextJs
 - WebPack
 - React-Router
+- React-Bootstrap
 
 ## Backend API and Database:
 - API with Node Express
