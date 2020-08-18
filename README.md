@@ -2,7 +2,7 @@
 <br/>
 
 ## Multi-User Blogging Platform
-This blog is built using MERN stack - React, Node Express, NextJs, and MongoDB
+This blog is built using React, Node Express, and MongoDB
 
 Address (Cloud service provided by Digital Ocean): http://167.99.183.216/
 
