@@ -1,7 +1,7 @@
 <img src="https://github.com/Qiugu-He/Blog/blob/master/HomePage.png" alt="alt text" width="100%" height="100%">
 <br/>
 
-## SEO Multi-User Blogging Platform
+## Multi-User Blogging Platform
 This blog is built using MERN stack - React, Node Express, NextJs, and MongoDB
 
 Address (Cloud service provided by Digital Ocean): http://167.99.183.216/
