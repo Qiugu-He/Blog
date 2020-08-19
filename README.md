@@ -47,6 +47,7 @@ Made by Qiugu
 
 ## Backend API and Database:
 - API with Node Express
+- Ngnix
 - MongoDB
 
 ## Project Main Structure:
