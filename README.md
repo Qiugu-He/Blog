@@ -4,7 +4,7 @@
 ## Multi-User Blogging Platform
 This blog is built using React, Node Express, and MongoDB
 
-Address (Cloud service provided by Digital Ocean): http://167.99.183.216/
+Address (Cloud service provided by Digital Ocean): http://143.110.221.115/
 
 <br>
 Made by Qiugu
