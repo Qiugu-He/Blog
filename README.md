@@ -105,7 +105,7 @@ npm run dev
 
 ***Note:** Please make sure API is running in ordrer for front-side work properly.
 
-For detail, please visite: http://167.99.183.216/
+For detail, please visite: http://143.110.221.115/
 
 
 
