@@ -11,7 +11,7 @@ Made by Qiugu
 
 ## Screenshot
 - PC / Laptop Desktop:
-<img src="https://github.com/Qiugu-He/Blog/blob/master/ScreenShoot8.png" alt="alt text" width="100%" height="100%">
+<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshoot8.png" alt="alt text" width="100%" height="100%">
 <br/>
 
 - Mobile:
