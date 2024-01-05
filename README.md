@@ -11,11 +11,11 @@ Made by Qiugu
 
 ## Screenshot
 - PC / Laptop Desktop:
-<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshoot8.png" alt="alt text" width="100%" height="100%">
+<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshoot5.png" alt="alt text" width="100%" height="100%">
 <br/>
 
 - Mobile:
-<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshoot5.png" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshoot.png" alt="alt text" width="30%" height="30%">
 <img src="https://github.com/Qiugu-He/Blog/blob/master/Screenshot3.png" alt="alt text" width="30%" height="30%">
 <br/>
 
